@@ -24,7 +24,7 @@ end
 
 def find_valid_calls(planeteer_calls)
   valid_calls = ["Earth!", "Wind!", "Fire!", "Water!", "Heart!"]
-  planeteer_calls.find {|element| element == 
+  planeteer_calls.find {|element| element == valid_calls} 
     index = 0
     if element == valid_calls[index]
       valid_element = element
